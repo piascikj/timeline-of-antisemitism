@@ -1,0 +1,26 @@
+{
+  "name": "timeline-of-antisemitism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piascikj/timeline-of-antisemitism.git"
+  },
+  "author": "Jesse Piascik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piascikj/timeline-of-antisemitism/issues"
+  },
+  "homepage": "https://github.com/piascikj/timeline-of-antisemitism#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
